@@ -1,0 +1,24 @@
+body {
+    background-color: honeydew;
+    margin: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: darkcyan;
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: darkcyan;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn {
+    margin: 25px 0;
+}
