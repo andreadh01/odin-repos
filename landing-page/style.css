@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+    background-color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+button {
+    padding: 8px 35px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    border: none;
+    color: #f9faf8;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    font-weight: 300;
+    color: #e5e7eb;
+}
+
+
+/* SECTION 1. MENU AND MAIN TITLE */
+
+.section-header {
+    background-color: #1f2937;
+    padding: 18px 210px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 11% 0;
+}
+
+.img-placeholder {
+    height: 240px;
+    width: 520px;
+    flex-shrink: 0;
+    background-color: #626973;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* SECTION 2. CARDS WITH INFO */
+
+.section-info {
+    padding: 50px 210px 110px 210px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.card {
+    height: 165px;
+    width: 165px;
+    border: solid 4px #3882f6;
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+}
+
+.info {
+    font-size: 18px;
+    color: #626973;
+    max-width: 165px;
+}
+
+
+/* SECTION 3. QUOTE */
+
+.section-quote {
+    padding: 117px 325px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.author {
+    font-size: 24px;
+    text-align: end;
+}
+
+
+/* SECTION 4. CALL TO ACTION */
+
+.section-call {
+    padding: 100px 210px;
+}
+
+.cta {
+    padding: 45px 115px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta button {
+    border: solid 2px #f9faf8;
+}
+
+
+/* SECTION 5. FOOTER */
+
+.section-footer {
+    background-color: #1f2937;
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
