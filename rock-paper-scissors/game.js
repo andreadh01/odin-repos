@@ -42,9 +42,7 @@ function game() {
                     break;
                 case 1:
                     player = player + 1
-                case 2:
-                    computer = computer + 1
-                    player = player + 1
+                    break;
             }
         } else {
             alert('Choose one of the three options')
