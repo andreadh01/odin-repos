@@ -15,7 +15,7 @@ buttons.forEach((btn) => {
         let result = playRound(btn.value, computerPlay());
         if (result == 1) {
             playerScore++;
-        } else {
+        } else if (result == 0) {
             cpuScore++;
         }
         updateScore();
